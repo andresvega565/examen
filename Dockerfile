@@ -7,7 +7,7 @@ RUN yum update -y && \
 RUN \
   yum clean all && rm -rf /tmp/yum*
 
-ENV SHELLINABOX_PORT=9106
+ENV SHELLINABOX_PORT=9104
 
 ENV USER=docker
 ENV PASSWORD=asix
